@@ -1,0 +1,211 @@
+/* Importar la fuente desde Google Fonts */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body {
+    margin: 0;
+    padding: 0;
+    /*min-width: 564px;*/
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    color: rgb(50, 50, 50);
+}
+
+a {
+    text-decoration: none;
+}
+
+.sombreado {
+    -webkit-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.58);
+    -moz-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.58);
+    box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.58);
+}
+
+div.contenedor {
+    display: flex;
+}
+
+div.centro {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+div.encabezado {
+    background-color: #1156ff;
+    padding: 0.6rem 0;
+    margin-bottom: 3vh;
+}
+
+/*altura del encabezado*/
+div.encabezado, div.logo img, div.menu img {
+    max-height: 2.3rem;
+}
+
+
+div.encabezado-contenido {
+    display: flex;
+    height: 100%;
+}
+
+div.logo {
+    height: 100%;
+    margin: 0 auto 0 0;
+}
+
+div.logo img {
+    height: 100%;
+}
+
+
+div.telefono {
+    text-align: center;
+    display: table;
+    height: 100%;
+    margin: auto;
+}
+
+div.telefono a {
+    color: white;
+    font-size: 2rem;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+
+div.menu {
+    float: right;
+    display: flex;
+    height: 100%;
+    margin: 0 0 0 auto;
+}
+
+div.menu div {
+    margin: 0 0.2rem;
+    height: 100%;
+}
+
+div.menu img {
+    height: 100%;
+}
+
+#ultimo-menu {
+    margin-right: 0;
+}
+
+div.fila, div.fila-enlaces-pie {
+    display: flex;
+    margin: 0 auto;
+}
+
+#primero-fila {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+#ultimo-fila {
+    margin-right: 0;
+    padding-right: 0;
+}
+
+div.fila div {
+    margin: 3vw 3vh 1rem auto;
+    /*width: 14%;/**/
+    height: 100px;
+    /*background-color: #FDFDFD;
+    box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.58);/**/
+}
+
+
+div.fila-enlaces-pie div {
+    margin: 5vh auto 1vh;
+    font-size: 0.9rem;
+}
+
+div.fila a, div.fila-enlaces-pie a, div.creditos a {
+    color: rgb(50, 50, 50);
+    text-align: center;
+}
+
+
+div.fila-enlaces-pie a:hover, div.creditos a:hover {
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: rgb(177, 177, 177);
+}
+
+figure {
+    margin: 0px;
+}
+
+figure img {
+    width: 100%;
+    height: 100%;
+    max-height: 72px;
+    max-width: 72px;
+}
+
+figcaption {
+    margin-top: 0.4rem;
+}
+
+
+
+
+@media screen and (min-width: 751px) {
+    div.fila-enlaces-pie div {
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    div.fila-enlaces-pie div {
+        font-size: 2vw;
+    }
+    div.telefono a {
+        font-size: 4vw;
+    }
+}
+
+
+@media screen and (min-width: 601px) {
+    figcaption {
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    figcaption {
+        font-size: 2vw;
+    }
+
+    div.telefono a {
+        font-size: 3vw;
+    }
+}
+
+
+
+@media screen and (max-width: 400px) {
+    div.fila-enlaces-pie div {
+        display: none;
+    }
+
+    div.telefono a {
+        display: none;
+    }
+
+    div.menu {
+        display: none;
+    }
+
+    figcaption {
+        display: none;
+    }
+}
+
+div.creditos {
+    text-align: center;
+    font-size: 0.7rem;
+    margin-top: 3vh;
+}

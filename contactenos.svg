@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   id="svg4367"
+   height="512"
+   width="512"
+   version="1.1">
+  <defs
+     id="defs4369" />
+  <metadata
+     id="metadata4372">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <circle
+     r="256"
+     cy="256"
+     cx="256"
+     id="path822"
+     style="opacity:1;fill:#21c37d;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:0.61316869" />
+  <g
+     style="fill:#ffffff;stroke:none"
+     id="Page-1"
+     transform="matrix(15.156234,0,0,15.156234,119.59389,119.59389)">
+    <g
+       style="fill:#ffffff"
+       id="Icons-Communication"
+       transform="translate(-85,-126)">
+      <g
+         style="fill:#ffffff"
+         id="phone"
+         transform="translate(85,126)">
+        <path
+           style="fill:#ffffff"
+           id="Shape"
+           d="m 3.6,7.8 c 1.4,2.8 3.8,5.1 6.6,6.6 l 2.2,-2.2 c 0.3,-0.3 0.7,-0.4 1,-0.2 1.1,0.4 2.3,0.6 3.6,0.6 0.6,0 1,0.4 1,1 V 17 c 0,0.6 -0.4,1 -1,1 C 7.6,18 0,10.4 0,1 0,0.4 0.4,0 1,0 h 3.5 c 0.6,0 1,0.4 1,1 0,1.2 0.2,2.4 0.6,3.6 0.1,0.3 0,0.7 -0.2,1 z" />
+      </g>
+    </g>
+  </g>
+</svg>
