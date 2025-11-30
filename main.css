@@ -40,6 +40,7 @@ div.encabezado {
 /*altura del encabezado*/
 div.encabezado, div.logo img, div.menu img {
     max-height: 2.3rem;
+    min-height: 1.3rem;
 }
 
 
